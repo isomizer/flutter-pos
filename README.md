@@ -1,4 +1,4 @@
-#❤️❤️ flutter_pos ❤️❤️
+# ❤️❤️ flutter_pos ❤️❤️
 
 A mobile POS written in Flutter
 
@@ -6,13 +6,13 @@ A mobile POS written in Flutter
 
 ## Getting Started
 
-##Support:
+## Support:
 
 Android
 Web (unable to print, yet)
 
 
-##Install & Run
+## Install & Run
 Get flutter
 
 flutter pub get
@@ -27,7 +27,7 @@ For emulator
 
 flutter run
 
-##TODO
+## TODO
 -Login & register
 -home page
 -report
