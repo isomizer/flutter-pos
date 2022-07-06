@@ -1,10 +1,42 @@
-# flutter_application_1
+#❤️❤️ flutter_pos ❤️❤️
 
-A new Flutter project.
+A mobile POS written in Flutter
+
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+##Support:
+
+Android
+Web (unable to print, yet)
+
+
+##Install & Run
+Get flutter
+
+flutter pub get
+flutter run
+
+For web
+
+flutter config --enable-web
+flutter run -d chrome --web-renderer canvaskit
+
+For emulator
+
+flutter run
+
+##TODO
+-Login & register
+-home page
+-report
+-print
+-scan
+-pos
+
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
