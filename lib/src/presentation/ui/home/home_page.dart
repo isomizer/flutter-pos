@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../gen/assets.gen.dart';
 import '../../../../gen/colors.gen.dart';
 
-const homePageRoutes = '/';
+const homePageRoutes = '/home';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

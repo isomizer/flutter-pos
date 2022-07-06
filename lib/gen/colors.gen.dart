@@ -17,8 +17,8 @@ class ColorName {
   /// Color: #030104
   static const Color actionBarIconColor = Color(0xFF030104);
 
-  /// Color: #FFFFFF
-  static const Color backgroundColor = Color(0xFFFFFFFF);
+  /// Color: #393C49
+  static const Color backgroundColor = Color(0xFF393C49);
 
   /// Color: #000000
   static const Color black = Color(0xFF000000);
