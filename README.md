@@ -15,25 +15,25 @@ Web (unable to print, yet)
 ## Install & Run
 Get flutter
 
-flutter pub get
-flutter run
+  flutter pub get
+  flutter run
 
 For web
 
-flutter config --enable-web
-flutter run -d chrome --web-renderer canvaskit
+  flutter config --enable-web
+  flutter run -d chrome --web-renderer canvaskit
 
 For emulator
 
-flutter run
+  flutter run
 
 ## TODO
--Login & register
--home page
--report
--print
--scan
--pos
+  -Login & register
+  -home page
+  -report
+  -print
+  -scan
+  -pos
 
 
 
