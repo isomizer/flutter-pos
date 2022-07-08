@@ -11,6 +11,7 @@ class Application extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
+      initialRoute: "/login",
       theme: defaultTheme,
       routes: {
         loginPageRoutes: (_) => const LoginPage(),

@@ -7,15 +7,15 @@ const mediumLetterSpacing = 0.04;
 const largeLetterSpacing = 1.0;
 
 final ThemeData defaultTheme = ThemeData(
-    primarySwatch: Colors.blue,
+    primarySwatch: ColorName.colorPrimarySwatch,
     scaffoldBackgroundColor: ColorName.backgroundColor,
     fontFamily: 'Muli',
     appBarTheme: const AppBarTheme(
       color: ColorName.backgroundColor,
-      iconTheme: IconThemeData(color: ColorName.accentLightColor),
+      iconTheme: IconThemeData(color: ColorName.black),
     ),
     buttonTheme: const ButtonThemeData(
-      buttonColor: ColorName.accentLightColor,
+      buttonColor: ColorName.black,
       disabledColor: ColorName.primaryColorDark,
     ),
     textTheme: _buildTextTheme());
@@ -34,7 +34,7 @@ TextTheme _buildTextTheme() {
     headline4: TextStyle(
       fontWeight: FontWeight.w700,
       fontSize: 20.0,
-      color: Colors.black87,
+      color: ColorName.black,
     ),
     headline5: TextStyle(
       fontWeight: FontWeight.w700,
@@ -58,7 +58,7 @@ TextTheme _buildTextTheme() {
     bodyText2: TextStyle(
       fontWeight: FontWeight.w400,
       fontSize: 13,
-      color: Colors.black45,
+      color: ColorName.black,
     ),
     button: TextStyle(
       fontWeight: FontWeight.w700,

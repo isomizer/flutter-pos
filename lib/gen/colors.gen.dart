@@ -17,96 +17,55 @@ class ColorName {
   /// Color: #030104
   static const Color actionBarIconColor = Color(0xFF030104);
 
-  /// Color: #393C49
-  static const Color backgroundColor = Color(0xFF393C49);
+  /// Color: #ffffff
+  static const Color backgroundColor = Color(0xFFe0efff);
 
-  /// Color: #000000
-  static const Color black = Color(0xFF000000);
-
-  /// MaterialColor:
-  ///   50: #FFF9E5E5
-  ///   100: #FFF1BFBF
-  ///   200: #FFE79595
-  ///   300: #FFDD6A6A
-  ///   400: #FFD64A4A
-  ///   500: #FFCF2A2A
-  ///   600: #FFCA2525
-  ///   700: #FFC31F1F
-  ///   800: #FFBD1919
-  ///   900: #FFB20F0F
-  static const MaterialColor crimsonRed = MaterialColor(
-    0xFFCF2A2A,
-    <int, Color>{
-      50: Color(0xFFF9E5E5),
-      100: Color(0xFFF1BFBF),
-      200: Color(0xFFE79595),
-      300: Color(0xFFDD6A6A),
-      400: Color(0xFFD64A4A),
-      500: Color(0xFFCF2A2A),
-      600: Color(0xFFCA2525),
-      700: Color(0xFFC31F1F),
-      800: Color(0xFFBD1919),
-      900: Color(0xFFB20F0F),
-    },
-  );
-
-  /// Color: #979797
-  static const Color gray410 = Color(0xFF979797);
-
-  /// Color: #EEEEEE
-  static const Color gray70 = Color(0xFFEEEEEE);
-
-  /// Color: #030303
-  static const Color groupTitleColor = Color(0xFF030303);
+  /// Color: #180E19
+  static const Color black = Color(0xFF180E19);
 
   /// Color: #FFFFFF
   static const Color primaryColor = Color(0xFFFFFFFF);
 
-  /// Color: #FFFFFF
-  static const Color primaryColorDark = Color(0xFFFFFFFF);
+  /// Color: #180E19
+  static const Color primaryColorDark = Color(0xFF180E19);
 
   /// Color: #FFFFFF
   static const Color white = Color(0xFFFFFFFF);
 
-  /// MaterialColor:
-  ///   50: #FFFBF2E5
-  ///   100: #FFF5DFBE
-  ///   200: #FFEFCA93
-  ///   300: #FFE9B568
-  ///   400: #FFE4A547
-  ///   500: #FFDF9527
-  ///   600: #FFDB8D23
-  ///   700: #FFD7821D
-  ///   800: #FFD27817
-  ///   900: #FFCA670E
-  static const MaterialColor yellowOcher = MaterialColor(
-    0xFFDF9527,
-    <int, Color>{
-      50: Color(0xFFFBF2E5),
-      100: Color(0xFFF5DFBE),
-      200: Color(0xFFEFCA93),
-      300: Color(0xFFE9B568),
-      400: Color(0xFFE4A547),
-      500: Color(0xFFDF9527),
-      600: Color(0xFFDB8D23),
-      700: Color(0xFFD7821D),
-      800: Color(0xFFD27817),
-      900: Color(0xFFCA670E),
-    },
-  );
+  /// Color: #003049
+  static const Color dartblue = Color(0xFF003049);
 
-  /// MaterialAccentColor:
-  ///   100: #FFFFE8E0
-  ///   200: #FFFFBCA3
-  ///   400: #FFFFA989
-  ///   700: #FFFF9E7A
-  static const MaterialAccentColor yellowOcherAccent = MaterialAccentColor(
-    0xFFFFBCA3,
+  /// Color: #B8B8B8
+  static const Color grey = Color(0xFFB8B8B8);
+
+  /// Color: #F4F4F4
+  static const Color lightgrey = Color(0xFFF4F4F4);
+
+  /// Color: #00669B
+  static const Color blue = Color(0xFF00669B);
+
+  /// Color: #008ED8
+  static const Color lightblue = Color(0xFF008ED8);
+
+  /// Color: #36CD1D
+  static const Color green = Color(0xFF36CD1D);
+
+  /// Color: #FF0000
+  static const Color red = Color(0xFFFF0000);
+
+  static const MaterialColor colorPrimarySwatch = MaterialColor(
+    0xFF003049,
     <int, Color>{
-      100: Color(0xFFFFE8E0),
-      200: Color(0xFFFFBCA3),
-      400: Color(0xFFFFA989),
-      700: Color(0xFFFF9E7A),
+      50: Color(0xFF003049),
+      100: Color(0xFF003049),
+      200: Color(0xFF003049),
+      300: Color(0xFF003049),
+      400: Color(0xFF003049),
+      500: Color(0xFF003049),
+      600: Color(0xFF003049),
+      700: Color(0xFF003049),
+      800: Color(0xFF003049),
+      900: Color(0xFF003049),
     },
   );
 }
